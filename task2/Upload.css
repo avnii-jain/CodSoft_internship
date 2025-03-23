@@ -1,0 +1,41 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    top: 8px;
+}
+.box{
+    border: 2px solid black;
+    height: 180px;
+    width: 200px;
+    margin: 130px 80px 50px 500px;
+    background-color: rgb(212, 231, 248);
+}
+.box .ip{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    margin: 45px 10px 20px 5px;
+    padding: 10px;
+    align-items: center;
+    top: 5px;
+}
+.box .btn{
+    background-color: rgb(63, 140, 63);
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    margin: 12px 20px 20px 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(78, 142, 78);
+    transform: scale(1.1);
+    }

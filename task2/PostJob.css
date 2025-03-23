@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    top: 8px;
+}
+.container{
+    border: 2px solid black;
+    height: 380px;
+    width: 600px;
+    margin: 60px 80px 50px 320px;
+    background-color: rgb(212, 231, 248);
+}
+.container h3{
+    text-align: center;
+    font-size: 40px;
+    margin: 25px;
+}
+.box input{
+    display: flex;
+    flex-direction: column;
+    height: 22px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    top: 5px;
+    margin: 12px 40px 12px 190px;
+}
+.container .btn{
+    background-color: rgb(63, 140, 63);
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 150px;
+    color: white;
+    margin: 6px 30px 20px 230px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(78, 142, 78);
+    transform: scale(1.1);
+    }

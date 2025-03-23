@@ -1,0 +1,36 @@
+/* body{
+    box-shadow: 0 4px 24px -8px rgba(2, 48, 72,0.2);
+} */
+.first{
+    margin: 25px;
+}
+.first >h2{
+    text-align: left;
+}
+.list{
+    margin: 7px;
+    line-height: 1.5;
+    font-size: 21px;
+    text-align: justify;
+}
+.second{
+    margin: 7px;
+    font-size: 22px;
+    line-height: 1.5;
+}
+.second > h3{
+    text-align: left;
+    font-size: 24px;
+    margin: 14px 0px;
+}
+.second > p{
+    margin: 6px;
+    padding: 5px 25px;
+    text-align: justify;
+}
+.third{
+    padding: 9px;
+    margin: 25px;
+    font-size: 20px;
+    line-height: 1.5;
+}

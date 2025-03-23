@@ -1,0 +1,12 @@
+.first{
+    font-size: 21px;
+    margin: 25px;
+    text-align: justify;
+}
+.second{
+    padding: 9px;
+    margin: 15px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}

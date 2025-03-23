@@ -1,0 +1,110 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    top: 8px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container .box1{
+    border: 2px solid black;
+    height: 520px;
+    width: 400px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(212, 231, 248);
+}
+.box1 h3{
+    text-align: center;
+    font-size: 34px;
+}
+.box1 input{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+.box1 button{
+    width: 180px;
+    left: 50%;
+    text-align: center;
+    left: 30px;
+    margin: 10px;
+    background-color: rgb(63, 140, 63);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+}
+.container .box2{
+    border: 2px solid black;
+    height: 250px;
+    width: 400px;
+    margin: 25px 13px;
+    top: 10px;
+    background-color: rgb(212, 231, 248);
+}
+.box2 h2{
+    font-size: 34px;
+    text-align: center;
+}
+.box2 h3{
+    font-size: 23px;
+    text-align: center;
+}
+.box3{
+    border: 2px solid black;
+    height: 250px;
+    width: 400px;
+    margin: 17px 25px 30px 14px;
+    top: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(212, 231, 248);
+}
+.box3 h2{
+    font-size: 34px;
+    text-align: center;
+}
+.box3 h3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 150;
+}
+.box3 input{
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 7px;
+    height: 14px;
+    width: 340px;
+}
+.box3 button{
+    width: 130px;
+    left: 50%;
+    margin: 10px;
+    padding: 7px;
+    background-color: rgb(63, 140, 63);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+.boxx{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: rgb(78, 142, 78);
+    transform: scale(1.1);
+}
